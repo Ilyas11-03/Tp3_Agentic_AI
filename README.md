@@ -1,10 +1,10 @@
-# 🤖 Activité Pratique N°3 : Architectures d'Agents IA avec LangChain & LangGraph
+# Activité Pratique N°3 : Architectures d'Agents IA avec LangChain & LangGraph
 
 Ce projet explore la conception et l'implémentation d'agents intelligents en utilisant les frameworks **LangChain** et **LangGraph**. Il est structuré de manière pédagogique, allant des agents simples aux systèmes de RAG (Retrieval Augmented Generation) agentiques complexes.
 
 ---
 
-## 🎯 Objectifs Pédagogiques
+## Objectifs Pédagogiques
 - Comprendre les fondements des agents autonomes et de la mémoire conversationnelle.
 - Maîtriser l'utilisation d'outils (Tools) et de middlewares pour enrichir les capacités des agents.
 - Apprendre l'orchestration de workflows complexes via des graphes d'états avec **LangGraph**.
@@ -12,11 +12,11 @@ Ce projet explore la conception et l'implémentation d'agents intelligents en ut
 
 ---
 
-## 📁 Structure du Projet
+## Structure du Projet
 
 Le projet est divisé en trois parties progressives :
 
-### 🟢 Partie 1 : Fondamentaux de LangChain
+### Partie 1 : Fondamentaux de LangChain
 Introduction aux agents et à la gestion des outils.
 - `01_simple_agent.py` : Premier contact avec un agent capable de raisonner.
 - `02_agent_with_memory.py` : Implémentation de la persistance de l'historique.
@@ -24,11 +24,11 @@ Introduction aux agents et à la gestion des outils.
 - `04_predefined_tools.py` : Utilisation de DuckDuckGo, Tavily et PythonREPL.
 - `05_middlewares.py` : Gestion avancée du flux et des logs (callbacks).
 
-### 🔵 Partie 2 : RAG Agentique
+### Partie 2 : RAG Agentique
 Combinaison de la recherche documentaire et du raisonnement agentique.
 - `agentic_rag.py` : Un agent capable de consulter une base de données vectorielle (ChromaDB) pour répondre à des questions complexes basées sur des documents.
 
-### 🟣 Partie 3 : Orchestration avec LangGraph
+### Partie 3 : Orchestration avec LangGraph
 Exploration du contrôle granulaire des agents via des graphes.
 - `01_langgraph_basics.py` : Création d'un premier graphe d'états simple.
 - `02_conditional_graph.py` : Introduction aux nœuds conditionnels (routage).
@@ -38,7 +38,7 @@ Exploration du contrôle granulaire des agents via des graphes.
 
 ---
 
-## 🛠️ Installation et Configuration
+## Installation et Configuration
 
 ### 1. Prérequis
 - Python 3.9+
@@ -61,7 +61,7 @@ LANGCHAIN_PROJECT=AI-Agents-TP3
 
 ---
 
-## 🚀 Guide d'Utilisation
+## Guide d'Utilisation
 
 1. **Ordre recommandé** : Suivez la numérotation des fichiers dans chaque dossier pour une progression logique.
 2. **Gestion des documents** : Pour les parties 2 et 3, placez vos fichiers PDF dans le dossier `resources/`. L'agent indexera automatiquement ces documents lors de son exécution.
@@ -69,7 +69,7 @@ LANGCHAIN_PROJECT=AI-Agents-TP3
 
 ---
 
-## 📚 Stack Technique
+## Stack Technique
 | Composant | Technologie |
 |-----------|-------------|
 | **LLM Orchestrator** | LangChain / LangGraph |
